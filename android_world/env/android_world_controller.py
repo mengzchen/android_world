@@ -319,6 +319,8 @@ def get_controller(
           adb_controller=config_classes.AdbControllerConfig(adb_path=adb_path),
       ),
   )
+  print("【INFO】config setted")
   android_env_instance = loader.load(config)
+  print("【INFO】android_env_instance loaded")
   logging.info('Setting up AndroidWorldController.')
   return AndroidWorldController(android_env_instance)

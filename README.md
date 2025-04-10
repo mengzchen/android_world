@@ -86,6 +86,9 @@ See demo videos on our [website](https://google-research.github.io/android_world
 
     # macOS
     brew install ffmpeg
+
+    # Windows
+    choco install ffmpeg
     ```
 
 ### Known Issues

@@ -32,6 +32,7 @@ def _get_env(
     console_port: int, adb_path: str, grpc_port: int
 ) -> interface.AsyncEnv:
   """Creates an AsyncEnv by connecting to an existing Android environment."""
+  print("【INFO】enter _get_env")
   controller = android_world_controller.get_controller(
       console_port, adb_path, grpc_port
   )
